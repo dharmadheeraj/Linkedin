@@ -1,46 +1,113 @@
 # Linkedin-Simulator
 
-Instruction to pull the project
+![alt text](linkedin-logo.jpg)
 
-create a direcory called Linkedin
 
-> *mkdir Linkedin*
+## Goal
 
-go to that folder
+* The goal is to build a distributed enterprise web application which enables the applicant to apply for various jobs and recruiter to post jobs. As well as create a dashboard for displaying analytics on user activity.
 
-> *cd LinkedinServer*
+* We were tasked with this project requirement so that we can learn and develop enterprise MERN stack applications with the use of distributed publish-subscribe messaging system like Apache Kafka along with a variety of other technologies like redis, mocha, etc.
 
-initialize git in it
 
-> *git init*
+## System Design
 
-now pull the code from github
+![alt text](Capture.JPG)
 
-> *git clone https://github.com/vamshireddy08/Linkedin-Server.git*
+</br>
 
-check the current branch
-> *git branch*
+## Technology stack 
 
-if you are not on the master branch , go to master branch
-> *git checkout master*
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Technology</th>
+</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Front-End</td>
+		<td>React, Redux, React Router, Bootstrap, HTML5, CSS3, Javascript ( ES6 )</td>
+	</tr>
+	<tr>
+		<td>Analytics Graphs</td>
+		<td>D3.js</td>
+	</tr>
+	<tr>
+		<td>Message-oriented middleware</td>
+		<td>Apache Kafka</td>
+	</tr>
+	<tr>
+		<td>Authentication Middleware</td>
+		<td>Passport.js</td>
+	</tr>
+	<tr>
+		<td>Back-End</td>
+		<td>Express, Node.js</td>
+	</tr>
+	<tr>
+		<td>In-Memory Caching / Datastore</td>
+		<td>Redis</td>
+	</tr>
+	<tr>
+		<td>API Testing</td>
+		<td>Mocha, Postman</td>
+	</tr>
+	<tr>
+		<td>Performance Testing</td>
+		<td>JMeter</td>
+	</tr>
+	<tr>
+		<td>Database</td>
+		<td>MySQL (Amazon RDS), MongoDB </td>
+	</tr>
+</tbody>
+</table>
+<br/>
 
-create your own branch  (you need to be in master at this step)
-> *git checkout -b your_name*
+## Screenshots
 
-work on the task !!!
+## Login/Signup
+![alt text](Screenshots/image006.gif)
+<br/>
 
-add the changes you made to your branch
-> git add .
 
-commit will make the changes fixed you can't undo the changes after that
-> git commit -m "completed profile backend"
+![alt text](Screenshots/image011.gif)
+<br/>
 
-Danger step Don't forget to pull the code from the github
-> git pull
+## User Profile
+![alt text](Screenshots/image064.gif)
+![alt text](Screenshots/image063.gif)
+ <br/>
 
-Now upload th code to github
-> git push
+## Jobs Search and Apply
+![alt text](Screenshots/image029.gif)
+![alt text](Screenshots/image032.gif)
+<br/>
 
-Give credentials if asked
+## Network
+![alt text](Screenshots/image038.gif)
+<br/>
+![alt text](Screenshots/image039.gif)
+<br/>
+![alt text](Screenshots/image041.gif)
+<br/>
 
-Merge will happen in github
+## Chat
+![alt text](Screenshots/image059.gif)
+<br/>
+
+#### Post Jobs
+![alt text](Screenshots/image017.gif)
+<br/>
+
+## View Posted Jobs
+![alt text](Screenshots/image024.gif)
+<br/>
+
+## User Analytics
+![alt text](Screenshots/image067.gif)
+<br/>
+![alt text](Screenshots/image068.gif)
+
